@@ -1,0 +1,18 @@
+$font-arial: 'arial';
+$text-xl: 20px;
+$text-lg: 18px;
+$text-base: 16px;
+$text-md: 14px;
+$text-sm: 12px;
+
+.button {
+    &-container {
+        background-color: red;
+        padding: 20px;
+    }
+    &-button {
+        border-radius: 12px;
+        font-family: $font-arial;
+        font-size: $text-xl;
+    }
+}
